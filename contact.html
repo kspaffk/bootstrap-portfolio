@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-secondary">
+    <nav class="bg-white mx-4 my-2 rounded">
+      <div class="justify-content-start">
+        <h1 class="display-4 ml-4 pt-4">Kent Spafford</h1>
+      </div>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <div class="jumbotron m-4 ">
+        <div class="row">
+          <div class="col-md-5">
+            <img
+              src="img/845_0085.jpg"
+              alt="my-family-pic"
+              height="160"
+              width="240"
+            />
+          </div>
+          <div class="col-md-6">
+            <h1 class="display-4">Contact Me</h1>
+            <p class="lead">Fill in the form if you would like to discuss my work.</p>
+          </div>
+        </div>
+        <hr class="my-4" />
+        <form class="mx-auto">
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" class="form-control" id="fullname" placeholder="John Smith">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="7"></textarea>
+            </div>
+            <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+      </div>
+    </header>
+    <div class="card mx-4 rounded fixed-bottom">
+      <div class="card-footer text-muted text-center">
+        Copyright &copy;
+      </div>
+    </div>
+  </body>
+</html>
